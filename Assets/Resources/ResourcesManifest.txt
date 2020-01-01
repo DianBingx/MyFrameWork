@@ -1,0 +1,9 @@
+Res	Path
+type	String
+note
+default	资源相对路径
+gameobject	prefabs/gameobject
+uitest	prefabs/uitest
+mainwindow	ui/mainwindow/mainwindow
+uimanager	ui/uimanager
+resourcesmanifest	resourcesmanifest
