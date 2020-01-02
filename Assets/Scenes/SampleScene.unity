@@ -120,6 +120,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &354714822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8873780691372682179, guid: 22412b0354bcbbf40840a0b593f6dd90,
+    type: 3}
+  m_PrefabInstance: {fileID: 2232949841759685231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &382664162 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6892105365564346797, guid: 22412b0354bcbbf40840a0b593f6dd90,
+    type: 3}
+  m_PrefabInstance: {fileID: 2232949841759685231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &503101517 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7213464100516722278, guid: 22412b0354bcbbf40840a0b593f6dd90,
+    type: 3}
+  m_PrefabInstance: {fileID: 2232949841759685231}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,6 +312,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &1448638408 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6544986456177170151, guid: 22412b0354bcbbf40840a0b593f6dd90,
+    type: 3}
+  m_PrefabInstance: {fileID: 2232949841759685231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1497971055 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 8300968786564163700, guid: 22412b0354bcbbf40840a0b593f6dd90,
+    type: 3}
+  m_PrefabInstance: {fileID: 2232949841759685231}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1945261673
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,6 +367,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &1957899612 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2886214117345435515, guid: 22412b0354bcbbf40840a0b593f6dd90,
+    type: 3}
+  m_PrefabInstance: {fileID: 2232949841759685231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &2054085173 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2742889591209957102, guid: 22412b0354bcbbf40840a0b593f6dd90,
+    type: 3}
+  m_PrefabInstance: {fileID: 2232949841759685231}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2232949841759685231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -589,5 +631,50 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 1080
       objectReference: {fileID: 0}
+    - target: {fileID: 1253078056105849725, guid: 22412b0354bcbbf40840a0b593f6dd90,
+        type: 3}
+      propertyPath: UICameraList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253078056105849725, guid: 22412b0354bcbbf40840a0b593f6dd90,
+        type: 3}
+      propertyPath: UICameraList.Array.data[0].m_key
+      value: DefaultUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253078056105849725, guid: 22412b0354bcbbf40840a0b593f6dd90,
+        type: 3}
+      propertyPath: UICameraList.Array.data[0].m_root
+      value: 
+      objectReference: {fileID: 354714822}
+    - target: {fileID: 1253078056105849725, guid: 22412b0354bcbbf40840a0b593f6dd90,
+        type: 3}
+      propertyPath: UICameraList.Array.data[0].m_camera
+      value: 
+      objectReference: {fileID: 1497971055}
+    - target: {fileID: 1253078056105849725, guid: 22412b0354bcbbf40840a0b593f6dd90,
+        type: 3}
+      propertyPath: UICameraList.Array.data[0].m_GameUILayerParent
+      value: 
+      objectReference: {fileID: 503101517}
+    - target: {fileID: 1253078056105849725, guid: 22412b0354bcbbf40840a0b593f6dd90,
+        type: 3}
+      propertyPath: UICameraList.Array.data[0].m_FixedLayerParent
+      value: 
+      objectReference: {fileID: 2054085173}
+    - target: {fileID: 1253078056105849725, guid: 22412b0354bcbbf40840a0b593f6dd90,
+        type: 3}
+      propertyPath: UICameraList.Array.data[0].m_NormalLayerParent
+      value: 
+      objectReference: {fileID: 1957899612}
+    - target: {fileID: 1253078056105849725, guid: 22412b0354bcbbf40840a0b593f6dd90,
+        type: 3}
+      propertyPath: UICameraList.Array.data[0].m_TopbarLayerParent
+      value: 
+      objectReference: {fileID: 1448638408}
+    - target: {fileID: 1253078056105849725, guid: 22412b0354bcbbf40840a0b593f6dd90,
+        type: 3}
+      propertyPath: UICameraList.Array.data[0].m_PopUpLayerParent
+      value: 
+      objectReference: {fileID: 382664162}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22412b0354bcbbf40840a0b593f6dd90, type: 3}

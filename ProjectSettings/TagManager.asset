@@ -44,3 +44,21 @@ TagManager:
   - name: Guide
     uniqueID: 254890521
     locked: 0
+  - name: GameUI
+    uniqueID: 7051135
+    locked: 0
+  - name: Fixed
+    uniqueID: 1584731723
+    locked: 0
+  - name: Normal
+    uniqueID: 1534694841
+    locked: 0
+  - name: TopBar
+    uniqueID: 3921006451
+    locked: 0
+  - name: Upper
+    uniqueID: 2038085971
+    locked: 0
+  - name: PopUp
+    uniqueID: 1134545799
+    locked: 0

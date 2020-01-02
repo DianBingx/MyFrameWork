@@ -2,6 +2,12 @@ Res	Path
 type	String
 note
 default	资源相对路径
+langdata_afrikaans	data/language/langdata_afrikaans
+langdata_arabic	data/language/langdata_arabic
+langdata_chinesesimplified	data/language/langdata_chinesesimplified
+guidedata	data/guidedata
+item	data/item
+testdata	data/testdata
 gameobject	prefabs/gameobject
 uitest	prefabs/uitest
 mainwindow	ui/mainwindow/mainwindow
